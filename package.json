@@ -1,0 +1,38 @@
+{
+	"name": "webpack-shader-loader",
+	"version": "1.0.0",
+	"description": "A webpack loader for loading shader files in typescript language",
+	"main": "out/index.js",
+	"typings": "out/type.d.ts",
+	"scripts": {
+		"build": "tsc -b",
+		"watch": "tsc -b -w",
+		"prepublish": "npm run build"
+	},
+	"keywords": [
+		"glsl",
+		"shader",
+		"webgl",
+		"webpack",
+		"typescript"
+	],
+	"author": "pucelle",
+	"license": "MIT",
+	"homepage": "https://github.com/pucelle/webpack-shader-loader",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/pucelle/webpack-shader-loader.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pucelle/webpack-shader-loader/issues"
+	},
+	"devDependencies": {
+		"@types/node": "^8.10.66",
+		"@types/loader-utils": "^2.0.1",
+		"@types/webpack": "^4.41.26",
+		"typescript": "^3.9.5"
+	},
+	"dependencies": {
+		"loader-utils": "^2.0.0"
+	}
+}
