@@ -9,7 +9,8 @@
 import shaderText from 'shaderFilePath.glsl'
 ```
 
-#### Add a loader module in configuration
+
+#### Add a loader module in webpack configuration file
 
 ```javascript
 {
@@ -26,8 +27,3 @@ import shaderText from 'shaderFilePath.glsl'
 	}
 }
 ```
-
-
-## License
-
-MIT
